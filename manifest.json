@@ -21,8 +21,8 @@
       "purpose": "maskable any"
     }
   ],
-  "start_url": "/?utm_source=homescreen",
-  "scope": "/",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
   "theme_color": "#065f46",
@@ -33,14 +33,14 @@
       "name": "Absensi Santri",
       "short_name": "Absen",
       "description": "Buka form absensi santri",
-      "url": "/?view=absen-santri",
+      "url": "./?view=absen-santri",
       "icons": [{ "src": "icons/shortcut-absen.png", "sizes": "96x96", "type": "image/png" }]
     },
     {
       "name": "Lapor Pelanggaran",
       "short_name": "Pelanggaran",
       "description": "Input laporan pelanggaran",
-      "url": "/?view=pelanggaran",
+      "url": "./?view=pelanggaran",
       "icons": [{ "src": "icons/shortcut-pelanggaran.png", "sizes": "96x96", "type": "image/png" }]
     }
   ],
